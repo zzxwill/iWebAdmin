@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Licensed Materials - Property of IBM
+			 5725-G92 (C) Copyright IBM Corp. 2006, 2013. All Rights Reserved.
+			 US Government Users Restricted Rights - Use, duplication or
+             disclosure restricted by GSA ADP Schedule Contract with IBM Corp. --><!-- Attribute "id" must be identical to application folder name --><application xmlns="http://www.worklight.com/application-descriptor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="iWebQuery_Dojo" platformVersion="6.1.0.00.20131126-0630">
+
+	<displayName>iWebQuery_Dojo</displayName>
+	<description>iWebQuery_Dojo</description>
+	<author>
+		<name>application's author</name>
+		<email>application author's e-mail</email>
+		<copyright>Copyright My Company</copyright>
+		<homepage>http://mycompany.com</homepage>
+	</author>
+	<mainFile>iWebQuery_Dojo.html</mainFile>
+	<thumbnailImage>common/images/thumbnail.png</thumbnailImage> 
+	<features>
+	<Analytics/>
+</features>
+</application>

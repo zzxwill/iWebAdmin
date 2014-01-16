@@ -1,0 +1,65 @@
+/*
+ *  Licensed Materials - Property of IBM
+ *  5725-G92 (C) Copyright IBM Corp. 2011, 2013. All Rights Reserved.
+ *  US Government Users Restricted Rights - Use, duplication or
+ *  disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+ */
+ 
+#progressBarStatusMsg {
+	color: #adaead;
+	font-family: Helvetica;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+#progressViewTabBarBtn1, #progressViewTabBarBtn2 {
+	width: 130px;
+}
+
+.mblProgressBar, .mblProgressBarProgress {
+	height: 12px;
+}
+
+.mblProgressBarMsg {
+	font-size: 12px;
+}
+
+.mblProgPink .mblProg0Color {
+	background-color: rgba(255,0,255,0.1);
+}
+
+.mblProgPink .mblProg1Color {
+	background-color: rgba(255,0,255,0.1);
+}
+.mblProgPink .mblProg2Color {
+	background-color: rgba(255,0,255,0.1);
+}
+.mblProgPink .mblProg3Color {
+	background-color: rgba(255,0,255,0.1);
+}
+.mblProgPink .mblProg4Color {
+	background-color: rgba(255,0,255,0.1);
+}
+.mblProgPink .mblProg5Color {
+	background-color: rgba(255,0,255,0.1);
+}
+.mblProgPink .mblProg6Color {
+	background-color: rgba(255,0,255,0.2);
+}
+.mblProgPink .mblProg7Color {
+	background-color: rgba(255,0,255,0.3);
+}
+.mblProgPink .mblProg8Color {
+	background-color: rgba(255,0,255,0.4);
+}
+.mblProgPink .mblProg9Color {
+	background-color: rgba(255,0,255,0.5);
+}
+.mblProgPink .mblProg10Color {
+	background-color: rgba(255,0,255,0.6);
+}
+.mblProgPink .mblProg11Color {
+	background-color: rgba(255,0,255,1);
+}

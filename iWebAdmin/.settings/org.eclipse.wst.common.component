@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="iWebAdmin">
+        <wb-resource deploy-path="/" source-path="/apps/iWebAdmin_JQuery/common"/>
+        <wb-resource deploy-path="/" source-path="/apps/iWebAdmin_JQuery/android"/>
+        <wb-resource deploy-path="/" source-path="/apps/iWebQuery_Dojo/common"/>
+        <wb-resource deploy-path="/" source-path="/www"/>
+        <wb-resource deploy-path="/" source-path="/apps/iWebAdmin_JQuery/iphone"/>
+        <property name="context-root" value="iWebAdmin"/>
+    </wb-module>
+</project-modules>

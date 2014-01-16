@@ -1,0 +1,28 @@
+/*
+ *  Licensed Materials - Property of IBM
+ *  5725-G92 (C) Copyright IBM Corp. 2011, 2013. All Rights Reserved.
+ *  US Government Users Restricted Rights - Use, duplication or
+ *  disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+ */
+ 
+#swapView1 {
+	background-color:#EEE;
+}
+#swapView2 {
+	background-color:#5E99CC;
+}
+#swapView3 {
+	background-color:#759E60;
+}
+
+#swapView1 > div, #swapView2 > div, #swapView3 > div {
+	text-align:center;
+	vertical-align:middle;
+	position:relative;
+	top: 10%;
+	height:100%;
+}
+
+#swapView1 > div > img, #swapView2 > div > img, #swapView3 > div > img {
+	height: 60%;
+}

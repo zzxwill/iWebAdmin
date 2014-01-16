@@ -1,0 +1,83 @@
+<!DOCTYPE html><html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta content="initial-scale=1.0, user-scalable=no" name="viewport">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta content="black" name="apple-mobile-web-app-status-bar-style">
+        <title></title>
+        <link href="worklight/worklight.css" rel="stylesheet">
+        <link href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css" rel="stylesheet">
+  <!-- Extra Codiqa features -->
+        <link href="codiqa.ext.css" rel="stylesheet">
+        <style>
+            .button-icon-custom {
+          background-size: 54px 54px;
+            }
+        </style>
+  <!-- jQuery and jQuery Mobile -->
+        <script>
+		// Define WL namespace.
+		var WL = WL ? WL : {};
+		/**
+		 * WLClient configuration variables.
+		 * Values are injected by the deployer that packs the gadget.
+		 */
+		WL.StaticAppProps = {
+   "APP_DISPLAY_NAME": "iWebAdmin_JQuery",
+   "APP_ID": "iWebAdmin_JQuery",
+   "APP_SERVICES_URL": "\/apps\/services\/",
+   "APP_VERSION": "1.0",
+   "ENVIRONMENT": "iphone",
+   "LOGIN_DISPLAY_TYPE": "embedded",
+   "WORKLIGHT_NATIVE_VERSION": "4155040770-3764441202",
+   "WORKLIGHT_PLATFORM_VERSION": "6.1.0.00.20131126-0630",
+   "WORKLIGHT_ROOT_URL": "\/apps\/services\/api\/iWebAdmin_JQuery\/iphone\/"
+};</script>
+		<script src="worklight/cordova.js"></script>
+		<script src="worklight/wljq.js"></script>
+		<script src="worklight/worklight.js"></script>
+		<script src="worklight/checksum.js"></script>
+		<script src="worklight/analytics.js"></script>
+		<script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+  <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+  <!-- Extra Codiqa features -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/codiqa.ext.js"></script>
+    </head>
+    <body>
+<!-- Home -->
+        <div data-role="page" id="page1">
+            <div data-role="header" data-theme="a">
+                <h3>
+            iWebAdmin
+        </h3>
+            </div>
+            <div data-role="content">
+                <div data-role="fieldcontain">
+                    <input id="searchinput1" name="" placeholder="" type="search" value="">
+                </div>
+                <a data-icon="arrow-r" data-iconpos="right" data-role="button" href="IBMi.html">
+            IBMi_A
+        </a>
+        <a data-icon="arrow-r" data-iconpos="right" data-role="button" href="IBMi.html">
+            IBMi_B
+        </a>
+            </div>
+    <!--div data-theme="a" data-role="footer">
+        <a data-role="button" href="#page1" data-icon="bars" data-iconpos="left"
+        class="ui-btn-left">
+            Button
+        </a>
+        <a data-role="button" href="#page1" class="ui-btn-left">
+            +
+        </a>
+    </div-->
+            <div class="ui-bar" data-position="fixed" data-role="footer">
+                <a data-icon="refresh" data-role="button" href="index.html">Refresh</a>
+    	<a data-icon="plus" data-role="button" href="addSystem.html">Add</a>
+    	<a data-icon="info" data-role="button" href="index.html">Info</a>
+    	<a data-icon="delete" data-role="button" href="index.html">Del</a>
+            </div>
+        </div>
+    </body>
+</html>

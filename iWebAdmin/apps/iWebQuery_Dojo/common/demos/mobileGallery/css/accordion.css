@@ -1,0 +1,18 @@
+/*
+ *  Licensed Materials - Property of IBM
+ *  5725-G92 (C) Copyright IBM Corp. 2011, 2013. All Rights Reserved.
+ *  US Government Users Restricted Rights - Use, duplication or
+ *  disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+ */
+ 
+.accordionPane {
+	font-family: Times New Roman, Helvetica;
+}
+
+/* The accordion title are "a" elements. The rule below aims to override the 
+   color specified in the rule for "a" elements in css/themes/android/gallery.css 
+   (and similar for iphone theme), thus restoring the default color from 
+   dojox.mobile themes (all platforms). */
+#accordion .mblAccordionTitleAnchor {
+	color: black;
+}
